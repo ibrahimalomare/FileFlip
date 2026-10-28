@@ -75,7 +75,8 @@ class LocalConverter {
         }
         if(o.target == "pdf") {
             val out=File(root,"FileFlip.pdf")
-            PdfDocument().use { pdf ->
+            val pdf = PdfDocument()
+            try {
                 files.forEachIndexed { i,input ->
                     currentCoroutineContext().ensureActive(); progress("Adding image ${i+1} of ${files.size}")
                     val b=bitmap(input)
@@ -91,6 +92,8 @@ class LocalConverter {
                     } finally { b.recycle() }
                 }
                 out.outputStream().use { pdf.writeTo(it) }
+            } finally {
+                pdf.close()
             }
             return out
         }
