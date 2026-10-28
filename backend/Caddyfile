@@ -1,0 +1,6 @@
+{$FILEFLIP_DOMAIN} {
+    request_body {
+        max_size 52428800
+    }
+    reverse_proxy converter:8080
+}

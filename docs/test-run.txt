@@ -1,0 +1,31 @@
+test_auth_required (test_api.ApiTests.test_auth_required) ... ok
+test_cancel_kills_process_and_removes_files (test_api.ApiTests.test_cancel_kills_process_and_removes_files) ... ok
+test_full_conversion_download_and_deletion (test_api.ApiTests.test_full_conversion_download_and_deletion) ... ok
+test_invalid_archive_rejected_without_leftovers (test_api.ApiTests.test_invalid_archive_rejected_without_leftovers) ... ok
+test_actual_jpeg_encoding_and_alpha_background (test_engine.EngineTests.test_actual_jpeg_encoding_and_alpha_background) ... ok
+test_docx_tables_are_editable_literal_cells (test_engine.EngineTests.test_docx_tables_are_editable_literal_cells) ... ok
+test_excel_pdf_real_render (test_engine.EngineTests.test_excel_pdf_real_render) ... ok
+test_excel_word_range_and_sheet_selection (test_engine.EngineTests.test_excel_word_range_and_sheet_selection) ... ok
+test_images_embedded_docx (test_engine.EngineTests.test_images_embedded_docx) ... ok
+test_invalid_file_rejected (test_engine.EngineTests.test_invalid_file_rejected) ... ok
+test_jpeg_to_png_encoding (test_engine.EngineTests.test_jpeg_to_png_encoding) ... ok
+test_legacy_doc_rendering (test_engine.EngineTests.test_legacy_doc_rendering) ... ok
+test_legacy_output_rejected (test_engine.EngineTests.test_legacy_output_rejected) ... ok
+test_legacy_xls_input (test_engine.EngineTests.test_legacy_xls_input) ... ok
+test_non_table_document_rejected (test_engine.EngineTests.test_non_table_document_rejected) ... ok
+test_ocr_image_table (test_engine.EngineTests.test_ocr_image_table) ... ok
+test_office_pdf_real_render (test_engine.EngineTests.test_office_pdf_real_render) ... ok
+test_page_range_validation (test_engine.EngineTests.test_page_range_validation) ... ok
+test_pdf_editable_word (test_engine.EngineTests.test_pdf_editable_word) ... ok
+test_pdf_page_images_zip (test_engine.EngineTests.test_pdf_page_images_zip) ... ok
+test_pdf_ruled_table (test_engine.EngineTests.test_pdf_ruled_table) ... ok
+test_real_image_ocr (test_engine.EngineTests.test_real_image_ocr) ... ok
+test_rotation (test_engine.EngineTests.test_rotation) ... ok
+test_scanned_pdf_ocr (test_engine.EngineTests.test_scanned_pdf_ocr) ... ok
+test_scanned_pdf_table (test_engine.EngineTests.test_scanned_pdf_table) ... ok
+test_zip_path_traversal_rejected (test_engine.EngineTests.test_zip_path_traversal_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 76.700s
+
+OK
